@@ -1,0 +1,59 @@
+body {
+  background-image: url(http://www.planwallpaper.com/static/images/1619726.jpg);
+  background-size: 100%;
+  opacity: 0.75;
+}
+.content{
+    margin: 100px;
+    text-align: center;
+}
+.boxed { /* box to contain quotes */
+  width: 400px;
+  height: 250px;
+  background: white;
+  border-radius: 20px 80px 20px 80px;
+}
+.col-centered { /* centers a column on the page */
+  float: none;
+  margin: 0 auto;
+}
+.quote{/* formats the text of the quote*/
+  font-size: 170%;
+  text-align: center;
+  padding: 25px;
+  font-family: tangerine;
+  font-weight: bold;
+}
+.author{
+  text-align: right;
+  font-size: 150%;
+  margin: 20px;
+  font-family: tangerine;
+  font-weight: bold;
+}
+.center{
+  text-align: center;
+}
+.title{
+  font-family: tangerine;
+  border-radius: 25px;
+  font-weight: 900;
+  font-size: 400%;
+  background-color: white;
+  width:300px;
+  text-align: center;
+}
+.buttonContainer{
+    width: 400px;
+    display: inline-block;
+}
+.quoteButton{
+    float: left;
+    height: 30px;
+    margin-left: 50px;
+}
+.tweetButton{
+    float: right;
+    height: 30px;
+    margin-right: 50px;
+}
